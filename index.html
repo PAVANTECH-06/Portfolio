@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gubbala P V Durga Malleswara Rao — Cloud & AI Developer</title>
+<meta name="description" content="Portfolio of Gubbala P V Durga Malleswara Rao — Cloud, Backend, Data & Generative AI Developer.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div class="logo">
+      <div class="mono-box">GP</div>
+      <span>gpvdmr<span style="color:var(--text-dim)">.dev</span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="avail"><span class="status-dot"></span> Available for opportunities</div>
+      <div class="theme-switcher">
+        <button class="theme-btn" id="themeBtn" aria-label="Switch Theme">
+          <i class="fa-solid fa-palette"></i>
+        </button>
+        <div class="theme-dropdown" id="themeDropdown">
+          <button data-theme="dark"><i class="fa-solid fa-moon"></i> Dark</button>
+          <button data-theme="light"><i class="fa-solid fa-sun"></i> Light</button>
+          <button data-theme="cyberpunk"><i class="fa-solid fa-bolt"></i> Cyberpunk</button>
+          <button data-theme="forest"><i class="fa-solid fa-tree"></i> Forest</button>
+          <button data-theme="slate"><i class="fa-solid fa-mountain"></i> Slate</button>
+        </div>
+      </div>
+      <button class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="terminal">
+        <span class="prompt">gpvdmr@portfolio</span>:~$ whoami<span class="cursor-blink"></span>
+      </div>
+      <h1>Gubbala P V Durga<br>Malleswara <span class="accent">Rao</span></h1>
+
+      <div class="role-pills">
+        <span>Cloud Developer</span>
+        <span>Generative AI Developer</span>
+        <span>Data Analyst</span>
+        <span>Python Developer</span>
+        <span>Software Engineer</span>
+      </div>
+
+      <div class="role-line">&gt; <span id="typeTarget" class="type-target"></span></div>
+      <p class="desc">B.Tech CSE Graduate, building cloud-backed, AI-powered systems — from
+        REST APIs and databases to LLM integrations that turn raw data into decisions. AWS Certified,
+        product-minded, and most at home where backend engineering meets applied AI and data analysis.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Get in touch</a>
+        <a href="#" id="resumeBtn" class="btn btn-ghost" download><i class="fa-solid fa-file-arrow-down"></i> Download resume</a>
+      </div>
+    </div>
+
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 460 460">
+        <g class="links"></g>
+        <g class="nodes"></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="eyebrow">About</div>
+        <h2>Turning cloud infrastructure and AI into working products</h2>
+
+        <div class="about-top" style="margin-top:26px;">
+          <div class="profile-photo-frame">
+            <!-- Add your photo to assets/profile.jpg (square photo works best) -->
+            <img src="assets/profile.jpeg" alt="Photo of Gubbala P V Durga Malleswara Rao" data-fallback="profileFallback">
+            <div class="profile-photo-fallback" id="profileFallback" style="display:none;">GP</div>
+          </div>
+          <div class="about-top-text">
+            <span class="role-caption">Narsapur, Andhra Pradesh</span>
+            <p>B.Tech CSE Graduate · AWS Certified Cloud Practitioner · open to backend, cloud,
+              data and GenAI roles.</p>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <p><strong>B.Tech in Computer Science Engineering</strong> at Swarnandhra College of Engineering &amp; Technology
+            (2022 – 2026), CGPA 8.74/10.</p>
+          <p>I build scalable backends with <strong>FastAPI and Flask</strong>, ship full-stack apps with
+            <strong>React</strong>, and design data pipelines and AI assistants powered by <strong>Google Gemini</strong>
+            and classic ML. As a Generative AI Intern at NIVUNA Labs, I shipped GenAI-powered applications, cut
+            manual processing time by 40%, and improved API response time by 35% by resolving 20+ backend bugs.</p>
+          <p>Certified <strong>AWS Cloud Practitioner</strong>, comfortable across PostgreSQL/MySQL/MongoDB, and
+            genuinely curious about where cloud infrastructure, backend engineering, data analysis, and applied AI intersect.</p>
+        </div>
+      </div>
+      <div class="stats-grid reveal">
+        <div class="stat-card">
+          <div class="stat-num" data-count="4">0</div>
+          <div class="stat-label">Projects shipped</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-count="8" data-suffix="+">0</div>
+          <div class="stat-label">REST APIs designed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-count="93" data-suffix="%">0</div>
+          <div class="stat-label">ML model accuracy</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-count="40" data-suffix="%">0</div>
+          <div class="stat-label">Manual work cut via GenAI</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Stack</div>
+      <h2>Tools I reach for</h2>
+      <p class="sub">Grouped by where they sit in a project — from data to deployment.</p>
+    </div>
+    <div class="skills-cols">
+      <div class="skill-panel reveal">
+        <div class="panel-head"><i class="fa-solid fa-terminal"></i> Languages</div>
+        <div class="skill-tags">
+          <span>Python</span><span>JavaScript</span><span>SQL</span><span>HTML</span><span>CSS</span>
+        </div>
+      </div>
+      <div class="skill-panel reveal">
+        <div class="panel-head"><i class="fa-solid fa-server"></i> Backend &amp; Frontend</div>
+        <div class="skill-tags">
+          <span>FastAPI</span><span>Flask</span><span>React.js</span><span>Node.js</span><span>REST APIs</span><span>JWT Auth</span>
+        </div>
+      </div>
+      <div class="skill-panel reveal">
+        <div class="panel-head"><i class="fa-solid fa-robot"></i> Generative AI</div>
+        <div class="skill-tags">
+          <span>LLM Applications</span><span>Prompt Engineering</span><span>AI Agents</span><span>Gemini API</span><span>GitHub Copilot</span>
+        </div>
+      </div>
+      <div class="skill-panel reveal">
+        <div class="panel-head"><i class="fa-solid fa-chart-line"></i> Data Analysis &amp; ML</div>
+        <div class="skill-tags">
+          <span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>NLP</span><span>EDA</span><span>Matplotlib / Seaborn</span><span>Power BI</span>
+        </div>
+      </div>
+      <div class="skill-panel reveal">
+        <div class="panel-head"><i class="fa-solid fa-database"></i> Databases</div>
+        <div class="skill-tags">
+          <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>SQLite</span>
+        </div>
+      </div>
+      <div class="skill-panel reveal">
+        <div class="panel-head"><i class="fa-solid fa-cloud"></i> Cloud &amp; Tools</div>
+        <div class="skill-tags">
+          <span>AWS EC2 / S3 / IAM</span><span>Git &amp; GitHub</span><span>GitHub Actions CI/CD</span><span>Linux</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE / EDUCATION PIPELINE ============ -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Path</div>
+      <h2>Education &amp; experience</h2>
+      <p class="sub">The pipeline so far — each stage feeding the next.</p>
+    </div>
+    <div class="pipeline">
+      <div class="pipe-stage reveal">
+        <div class="pipe-node"><i class="fa-solid fa-graduation-cap"></i></div>
+        <span class="tag">2022 — 2026</span>
+        <h3>B.Tech, Computer Science Engineering</h3>
+        <div class="org">Swarnandhra College of Engineering &amp; Technology · CGPA 8.74/10</div>
+      </div>
+      <div class="pipe-stage reveal">
+        <div class="pipe-node"><i class="fa-solid fa-certificate"></i></div>
+        <span class="tag">Certifications</span>
+        <h3>AWS Certified Cloud Practitioner</h3>
+        <div class="org">Also completed: Data Analytics with Python — NPTEL (Elite)</div>
+      </div>
+      <div class="pipe-stage reveal">
+        <div class="pipe-node"><i class="fa-solid fa-briefcase"></i></div>
+        <span class="tag">Sep 2025 — Mar 2026</span>
+        <h3>Generative AI Intern</h3>
+        <div class="org">NIVUNA Labs</div>
+        <ul>
+          <li>Developed 3+ Generative AI-powered applications using Python, REST APIs, and automation workflows, cutting manual processing time by 40%.</li>
+          <li>Optimized backend performance by resolving 20+ bugs, improving API response time by 35% for scalable AI-driven solutions.</li>
+          <li>Integrated APIs and automation processes to improve workflow efficiency, gaining exposure to cloud deployment workflows.</li>
+        </ul>
+      </div>
+      <div class="pipe-stage reveal">
+        <div class="pipe-node"><i class="fa-solid fa-flag-checkered"></i></div>
+        <span class="tag">2026</span>
+        <h3>Graduating &amp; open to opportunities</h3>
+        <div class="org">Looking for roles in backend engineering, cloud, data analysis, or applied AI/GenAI.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Work</div>
+      <h2>Projects</h2>
+      <p class="sub">Built end to end — data, backend, and the AI layer on top.</p>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="proj-thumb">
+          <!-- Add a screenshot to assets/project-smart-city.jpg -->
+          <img src="assets/smart-city.jpeg" alt="Smart City Assistant screenshot" data-fallback="thumbFallback1">
+          <div class="proj-thumb-fallback" id="thumbFallback1" style="display:none;"><i class="fa-solid fa-city"></i></div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <div>
+              <div class="proj-status"><i class="fa-solid fa-circle"></i> DEPLOYED</div>
+              <h3>Smart City Assistant</h3>
+            </div>
+          </div>
+          <p class="proj-desc">AI-powered urban governance platform processing 10,000+ data points in real time,
+            with Gemini LLM integrated into ML forecasting models for sustainability and KPI decision support.</p>
+          <div class="proj-metrics">
+            <span class="metric-chip">8+ REST APIs</span>
+            <span class="metric-chip">Sub-200ms response</span>
+            <span class="metric-chip">+30% forecast accuracy</span>
+          </div>
+          <div class="proj-tags">
+            <span>Python</span><span>FastAPI</span><span>Streamlit</span><span>Gemini</span><span>PostgreSQL</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/PAVANTECH-06" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="proj-thumb">
+          <!-- Add a screenshot to assets/project-intellisql.jpg -->
+          <img src="assets/project-intellisql.jpeg" alt="IntelliSQL screenshot" data-fallback="thumbFallback2">
+          <div class="proj-thumb-fallback" id="thumbFallback2" style="display:none;"><i class="fa-solid fa-database"></i></div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <div>
+              <div class="proj-status"><i class="fa-solid fa-circle"></i> DEPLOYED</div>
+              <h3>IntelliSQL — AI SQL Assistant</h3>
+            </div>
+          </div>
+          <p class="proj-desc">Converts natural language into optimized SQL using Google Gemini, with built-in
+            query validation, error detection, and result visualization for non-technical users.</p>
+          <div class="proj-metrics">
+            <span class="metric-chip">-60% query-writing time</span>
+            <span class="metric-chip">100+ query types</span>
+          </div>
+          <div class="proj-tags">
+            <span>Python</span><span>Streamlit</span><span>Gemini AI</span><span>SQLite</span><span>Pandas</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/PAVANTECH-06" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="proj-thumb">
+          <!-- Add a screenshot to assets/project-spam-detection.jpg -->
+          <img src="assets/project-spam-detection.jpeg" alt="Spam detection project screenshot" data-fallback="thumbFallback3">
+          <div class="proj-thumb-fallback" id="thumbFallback3" style="display:none;"><i class="fa-solid fa-shield-halved"></i></div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <div>
+              <div class="proj-status"><i class="fa-solid fa-circle"></i> DEPLOYED</div>
+              <h3>Email Spam &amp; Fake Message Detection</h3>
+            </div>
+          </div>
+          <p class="proj-desc">NLP-based classifier trained on 50,000+ messages to flag spam and fake content,
+            with hyperparameter tuning to sharpen precision and recall.</p>
+          <div class="proj-metrics">
+            <span class="metric-chip">93% accuracy</span>
+            <span class="metric-chip">+12% precision</span>
+            <span class="metric-chip">+9% recall</span>
+          </div>
+          <div class="proj-tags">
+            <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>NLTK</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/PAVANTECH-06" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="proj-thumb">
+          <!-- Add a screenshot to assets/project-task-manager.jpg -->
+          <img src="assets/project-task-manager.jpeg" alt="Task Management System screenshot" data-fallback="thumbFallback4">
+          <div class="proj-thumb-fallback" id="thumbFallback4" style="display:none;"><i class="fa-solid fa-list-check"></i></div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <div>
+              <div class="proj-status"><i class="fa-solid fa-circle"></i> DEPLOYED</div>
+              <h3>Task Management System</h3>
+            </div>
+          </div>
+          <p class="proj-desc">Full-stack task management app with JWT authentication and REST APIs for
+            creating, updating, and deleting tasks — built to practice clean auth and API design.</p>
+          <div class="proj-metrics">
+            <span class="metric-chip">JWT auth</span>
+            <span class="metric-chip">Full CRUD API</span>
+          </div>
+          <div class="proj-tags">
+            <span>React.js</span><span>FastAPI</span><span>SQLite</span><span>Python</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/PAVANTECH-06" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section class="section" id="achievements">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Recognition</div>
+      <h2>Achievements &amp; certifications</h2>
+    </div>
+    <div class="achieve-grid">
+      <div class="achieve-card reveal">
+        <i class="fa-solid fa-trophy"></i>
+        <div><h4>Winner — AI/ML Technical Presentation Competition</h4><p>Recognized for a technical presentation on applied AI/ML.</p></div>
+      </div>
+      <div class="achieve-card reveal">
+        <i class="fa-brands fa-hackerrank"></i>
+        <div><h4>HackerRank — 3★ Python</h4><p>Verified problem-solving proficiency in Python.</p></div>
+      </div>
+      <div class="achieve-card reveal">
+        <i class="fa-brands fa-aws"></i>
+        <div><h4>AWS Certified Cloud Practitioner</h4><p>Foundational certification across AWS core services.</p></div>
+      </div>
+      <div class="achieve-card reveal">
+        <i class="fa-solid fa-chart-simple"></i>
+        <div><h4>Data Analytics with Python — NPTEL (Elite)</h4><p>Elite-level certification in applied data analytics.</p></div>
+      </div>
+      <div class="achieve-card reveal">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <div><h4>NSS Volunteer</h4><p>National Service Scheme — community engagement and service.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact" style="border-bottom:none;">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Contact</div>
+      <h2>Let's build something</h2>
+      <p class="sub">Open to backend, cloud, data, and GenAI roles &amp; internships. Reach out directly or use the form.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <small>Email</small>
+            <a href="mailto:gubbalapavan9347@gmail.com">gubbalapavan9347@gmail.com</a>
+          </div>
+          <button class="copy-btn" data-copy="gubbalapavan9347@gmail.com">Copy</button>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <small>Phone</small>
+            <span>+91 93478 46836</span>
+          </div>
+          <button class="copy-btn" data-copy="+919347846836">Copy</button>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <small>Location</small>
+            <span>Narsapur, Andhra Pradesh, India</span>
+          </div>
+        </div>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/gubbalapavan/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/PAVANTECH-06" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:gubbalapavan9347@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="reveal">
+        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+        </div>
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell me a bit about the role or project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="submitBtn">
+          <i class="fa-solid fa-paper-plane"></i> <span id="submitLabel">Send message</span>
+        </button>
+        <div class="form-msg" id="formMsg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <a href="#" class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    <p>© 2026 Gubbala P V Durga Malleswara Rao — Built with intent, not a template.</p>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX MODAL ============ -->
+<div id="imageLightbox" class="lightbox" aria-hidden="true">
+  <span class="lightbox-close" id="lightboxClose">&times;</span>
+  <div class="lightbox-content-wrapper">
+    <img class="lightbox-content" id="lightboxImg" alt="Enlarged project view">
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
